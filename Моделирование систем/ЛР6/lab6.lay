@@ -1,0 +1,144 @@
+Define View "(Home)" center 0 -0 Width 127.53294798 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6
+Define View "(Class)" center -9 2.5 Width 7.84710887 Grid Size 0.1 1 Ortho
+Define color Backdrop  0.8 0.74901961 0.54901961
+Define color F1 0 0 0.66666667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.66666667
+Define color F6 1 0.66666667 0
+Define color F7 0 1 0
+Define color F8 0.89803922 0.24705882 0.24705882
+Define color F9 0 0 1
+Define color F10 0.74901961 0.24705882 0.24705882
+Define color F11 0.6 0.94901961 1
+Define color F12 0.49803922 0.34901961 0
+Define color F13 0.74901961 0.4 0.66666667
+Define color F14 0.6 0.49803922 0.49803922
+Define color F15 0 0.6 0.2
+Define color F16 0.66666667 0 1
+Define color F17 0 0.66666667 0.66666667
+Define color F18 0.66666667 0.32941176 0
+Define color F19 0.4 0.49803922 0.69803922
+Define color F20 0 0.32941176 0.32941176
+Define color F21 0.89803922 0.66666667 0.49803922
+Define color F22 0.49803922 0.24705882 0.49803922
+Define color F23 0.74901961 0.6 0
+Define color F24 0.49803922 0 0.66666667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.29803922 0.29803922 0.29803922
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.49803922 0.49803922 0.49803922
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.69803922 0.69803922 0.69803922
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.89803922 0.89803922 0.89803922
+Define color L1 0.49803922 0.49803922 0.49803922
+Define color L2 0.66666667 0.94901961 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.89803922 0.66666667 0.49803922
+Define color L6 0.4 0.49803922 0.69803922
+Define color L7 0 0 0.66666667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F2
+Define Class people
+Line -10 0 -9 1
+Line -9 1 -8 0
+Line -8 0 -9 1
+Line -9 1 -9 3
+Line -9 3 -10 2
+Line -10 2 -9 3
+Line -9 3 -8 2
+Arc 1 -9 4 0 360 0
+End
+Define Class seller Clearance 100 0
+Line -10 0 -9 1
+Line -9 1 -8 0
+Line -8 0 -9 1
+Line -9 3 -10 2
+Line -10 2 -9 3
+Line -9 3 -8 2
+Arc 1 -9 4 0 360 0
+Line -9 1 -9 3
+Fill -8.43089413 4.00135256
+End
+Color L3
+Line #1 -3 -4 10 -4
+Line #2 -3 -15 -3 -7
+Line #3 -3 -7 10 -7
+Line #4 -3 5 -3 -4
+Color L17
+Line 2 10 2 0
+Line 2 0 0 0
+Line 0 0 0 10
+Color L3
+Line #5 -40 5 -3 5
+Color L17
+Line 0 10 2 10
+Color L4
+Text 1 2 LJ -2 11 Касса1
+Color L17
+Line 0 -10 2 -10
+Line 2 -10 2 -20
+Line 0 -20 0 -10
+Color L3
+Line #6 -40 -15 -3 -15
+Color L17
+Line 2 -20 0 -20
+Color L3
+Line #7 -48 -5 -40 -5
+Line #8 -40 -5 -40 5
+Line #9 -40 -5 -40 -15
+Color L4
+Text 1 2 LJ -3 -23 Касса2
+Color L3
+Line #10 10 7 10 3
+Line 10 -13 10 -17
+Define Path ENTER Label -49.03083864 -5.12984445 Speed 5
+Segment #7 -48 -5 -40 -5 8
+End
+Define Path TO_LINE1 Label -39.74326997 0.08789077 Speed 5
+Segment #8 -40 -5 -40 5 10
+Segment #5 -40 5 -3 5 37
+End
+Define Path TO_LINE2 Label -39.84762467 -9.98233819 Speed 5
+Segment #9 -40 -5 -40 -15 10
+Segment #6 -40 -15 -3 -15 37
+End
+Define Path TO_EXIT Label 0.32893646 -2.8862183 Time 10.4
+Segment #4 -3 5 -3 -4 9
+Segment #1 -3 -4 10 -4 13
+End
+Define Path TO_EXIT2 Label 0.22458176 -8.20830822 Time 10.2
+Segment #2 -3 -15 -3 -7 8
+Segment #3 -3 -7 10 -7 13
+End
+Define Path TO_STAND1 Accumulating Label 10.14406782 7.24929725 Speed 0
+Segment #10 10 7 10 3 4
+End
+End
