@@ -1,0 +1,245 @@
+Define View "(Home)" center 0 -0 Width 128.46638889 Grid Size 1 10 Ortho Aspect 1 0.5 Speed 6
+Define View "(Class)" center 0 0.5 Width 4.70831552 Grid Size 0.1 1 Ortho
+Define color Backdrop  0.8 0.74901961 0.54901961
+Define color F1 0 0 0.66666667
+Define color F2 1 0 0
+Define color F3 1 1 1
+Define color F4 1 1 0
+Define color F5 1 0 0.66666667
+Define color F6 1 0.66666667 0
+Define color F7 0 1 0
+Define color F8 0.89803922 0.24705882 0.24705882
+Define color F9 0 0 1
+Define color F10 0.74901961 0.24705882 0.24705882
+Define color F11 0.6 0.94901961 1
+Define color F12 0.49803922 0.34901961 0
+Define color F13 0.74901961 0.4 0.66666667
+Define color F14 0.6 0.49803922 0.49803922
+Define color F15 0 0.6 0.2
+Define color F16 0.66666667 0 1
+Define color F17 0 0.66666667 0.66666667
+Define color F18 0.66666667 0.32941176 0
+Define color F19 0.4 0.49803922 0.69803922
+Define color F20 0 0.32941176 0.32941176
+Define color F21 0.89803922 0.66666667 0.49803922
+Define color F22 0.49803922 0.24705882 0.49803922
+Define color F23 0.74901961 0.6 0
+Define color F24 0.49803922 0 0.66666667
+*[new] Define color F25 0.2 0.2 0.2
+*[new] Define color F26 0.29803922 0.29803922 0.29803922
+*[new] Define color F27 0.4 0.4 0.4
+*[new] Define color F28 0.49803922 0.49803922 0.49803922
+*[new] Define color F29 0.6 0.6 0.6
+*[new] Define color F30 0.69803922 0.69803922 0.69803922
+*[new] Define color F31 0.8 0.8 0.8
+*[new] Define color F32 0.89803922 0.89803922 0.89803922
+Define color L1 0.49803922 0.49803922 0.49803922
+Define color L2 0.66666667 0.94901961 1
+Define color L3 1 1 1
+Define color L4 1 0 0
+Define color L5 0.89803922 0.66666667 0.49803922
+Define color L6 0.4 0.49803922 0.69803922
+Define color L7 0 0 0.66666667
+*[new] Define color L8 0 0 0
+*[new] Define color L9 0 0 0
+*[new] Define color L10 0 0 0
+*[new] Define color L11 0 0 0
+*[new] Define color L12 0 0 0
+*[new] Define color L13 0 0 0
+*[new] Define color L14 0 0 0
+*[new] Define color L15 0 0 0
+*[new] Define color L16 0 0 0
+*[new] Define color L17 0 0 0
+*[new] Define color L18 0 0 0
+*[new] Define color L19 0 0 0
+*[new] Define color L20 0 0 0
+*[new] Define color L21 0 0 0
+*[new] Define color L22 0 0 0
+*[new] Define color L23 0 0 0
+*[new] Define color L24 0 0 0
+*[new] Define color L25 0 0 0
+*[new] Define color L26 0 0 0
+*[new] Define color L27 0 0 0
+*[new] Define color L28 0 0 0
+*[new] Define color L29 0 0 0
+*[new] Define color L30 0 0 0
+*[new] Define color L31 0 0 0
+*[new] Define color L32 0 0 0
+Color F25
+Define Class MEDTRANS
+Line -1.5 0 -2 0
+Line -2 0 -2 0.6
+Arc 0.5 -1 0 0 180 0
+Line -2 0.6 -1.4 2
+Line 2 2 2 0
+Line 2 0 1.6 0
+Arc 0.5 1.1 0 0 180 0
+Line -0.5 0 0.6 0
+Line -1.4 2 2 2
+Arc 0.45 1.1 0 0 360 0
+Arc 0.45 -1 0 0 360 0
+Line -2 0.6 -1.2 0.6
+Line -1.2 0.6 -1.2 2
+Line -0.8 2 -0.8 2.2
+Line -0.8 2.2 -0.2 2.2
+Line -0.2 2.2 -0.2 2
+Line -0.2 2 -0.3 2
+Line -0.6 2.2 -0.6 2
+Line -0.4 2.2 -0.4 2
+Color F2
+Fill -0.74031344 2.12739834
+Color F1
+Fill -0.3443949 2.10570417
+Color F11
+Fill -0.46371282 2.04604521
+Fill -1.49418574 1.4982675
+Color F3
+Fill 0.74031344 1.27047875
+Color F25
+Fill -0.80539594 0.16407624
+Fill 1.43452678 0.21831166
+End
+Define Class PATIENT
+Arc 0.4 0 1.6 0 360 0
+Line -0.6 1.2 0.6 1.2
+Line -0.6 1.2 -0.6 0
+Line -0.6 0 -0.4 0
+Line -0.4 0 -0.4 0.9
+Line -0.4 0.9 -0.3 0
+Line 0.3 0 0.4 0.9
+Line 0.4 0.9 0.4 0
+Line 0.4 0 0.6 0
+Line 0.6 1.2 0.6 0
+Line -0.3 0 -0.4 -1
+Line -0.4 -1 -0.1 -1
+Line -0.1 -1 0 -0.3
+Line 0 -0.3 0.1 -1
+Line 0.1 -1 0.4 -1
+Line 0.4 -1 0.3 0
+Line -0.3 0 0.3 0
+Line -0.4 0.9 -0.4 1.2
+Line 0.4 0.9 0.4 1.2
+Color F21
+Fill -0.13010812 1.56468756
+Fill 0.48561481 0.90131941
+Fill -0.48561481 0.96728972
+Color F3
+Fill -0.19241341 0.83901411
+Color F9
+Fill -0.07146784 -0.24949606
+End
+Color F25
+Line -40 3 -40 30
+Line -40 -3 -40 -30
+Color F9
+Line #1 -50 30 -50 0
+Line #2 -50 0 -50 -30
+Color F25
+Line -40 -10 -20 -10
+Line -20 -10 -20 -3
+Line -20 10 -20 3
+Line -10 -30 -10 -15
+Line 3 -15 10 -15
+Line 10 -15 10 -30
+Line -10 -15 -3 -15
+Line 23 -15 30 -15
+Line 30 -15 30 -30
+Line 50 30 50 3
+Line 50 -3 50 -30
+Line #3 0 0 0 22
+Line #4 40 0 40 22
+Line #5 0 0 0 -22
+Line #6 20 0 20 -22
+Line #7 40 0 60 0
+Line #8 20 0 20 22
+Text 1 1.5 LJ -37 8 Первая помощь
+Line #9 20 0 40 0
+Line #10 0 0 20 0
+Line #11 -50 0 -40 0
+Line #12 -40 0 -20 0
+Line #13 -20 0 0 0
+Line -40 10 -20 10
+Line -10 30 -10 15
+Line 10 15 10 30
+Line -10 15 -3 15
+Line 10 15 17 15
+Line 23 15 30 15
+Line 30 15 30 30
+Line 30 15 36 15
+Line 44 15 50 15
+Text 1 1.5 LJ -10 28 Интенсивная терапия
+Text 1 1.5 LJ 13 28 Операционная
+Text 1 1.5 LJ 34 28 Реанимация
+Line -40 30 40 30
+Line 40 30 50 30
+Line -40 -30 40 -30
+Line 50 -30 40 -30
+Text 1 1.5 LJ -4 -29 Хирургия
+Text 1 1.5 LJ 16 -29 Терапия
+Line 3 15 10 15
+Line 10 -15 17 -15
+Message OPER 1 1.5 LJ 26 16 BG Backdrop 123
+Message INT 1 1.5 LJ 6 16 BG Backdrop 123
+Message REAN 1 1.5 LJ 46 16 BG Backdrop 123
+Message HIR 1 1.5 LJ -9 -17 BG Backdrop 123
+Message TER 1 1.5 LJ 11 -17 BG Backdrop 123
+Define Path MTENTER Label -49.75 30.42333333 Time 5
+Segment #1 -50 30 -50 0 30
+End
+Define Path MTEXIT Label -49.05 -29.27666667 Time 5
+Segment #2 -50 0 -50 -30 30
+End
+Define Path PATENTER Label -48.05 1.99666667 Time 1
+Segment #11 -50 0 -40 0 10
+End
+Define Path TIMEPP Label -32.05 1.55 Time 3
+Segment #12 -40 0 -20 0 20
+End
+Define Path PATPAL Label -12.15 1.40333333 Time 1
+Segment #13 -20 0 0 0 20
+End
+Define Path PATINT Label 0.25 0.43 Time 1
+Segment #3 0 0 0 22 22
+End
+Define Path PATOPER Label -2.75 -0.17 Time 1
+Segment #10 0 0 20 0 20
+Segment #8 20 0 20 22 22
+End
+Define Path PATREAN Label 17.25 -0.17 Time 1
+Segment #10 0 0 20 0 20
+Segment #9 20 0 40 0 20
+Segment #4 40 0 40 22 22
+End
+Define Path PATHIR Label 0.25 0.40333333 Time 1
+Segment #5 0 0 0 -22 22
+End
+Define Path PATTER Label -2.35 -0.19666667 Time 1
+Segment #10 0 0 20 0 20
+Segment #6 20 0 20 -22 22
+End
+Define Path DOP Label 20.25 22.47666667 Time 1
+Segment #8 20 22 20 0 22
+Segment #10 20 0 0 0 20
+End
+Define Path INTEXIT Label 0.25 22.42333333 Time 1
+Segment #3 0 22 0 0 22
+Segment #10 0 0 20 0 20
+Segment #9 20 0 40 0 20
+Segment #7 40 0 60 0 20
+End
+Define Path HIREXIT Label 0.25 -21.62333333 Time 1
+Segment #5 0 -22 0 0 22
+Segment #10 0 0 20 0 20
+Segment #9 20 0 40 0 20
+Segment #7 40 0 60 0 20
+End
+Define Path TEREXIT Label 20.25 -21.57666667 Time 1
+Segment #6 20 -22 20 0 22
+Segment #9 20 0 40 0 20
+Segment #7 40 0 60 0 20
+End
+Define Path REANEXIT Label 40.25 22.42333333 Time 1
+Segment #4 40 22 40 0 22
+Segment #7 40 0 60 0 20
+End
+End
