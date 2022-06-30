@@ -1,0 +1,26 @@
+table{
+	border: solid;
+	border-spacing: 0;
+	border-width: 2px;
+	border-color: #6B5D73;
+}
+
+body{
+	background-image: url(space.jpg);
+	background-repeat: round;
+}
+
+td{
+	font-family: serif;
+	font-style: oblique;
+	font-variant: no-common-ligatures proportional-nums;
+	border: solid;
+	border-width: 1px;
+	border-color: #6B5D73;
+	background-color: plum;
+	color: #2081CF;
+}
+
+li{
+	list-style-type: "\1F44D";	
+}
